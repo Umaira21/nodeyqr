@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+          <style>
+              ol {
+  background: #ff9999;
+  
+}
+
+ul {
+  background: #3399ff;
+ 
+}
+
+ol li {
+  background: #ffe5e5;
+  
+}
+
+ul li {
+  background: #cce5ff;
+  
+
+}
+
+span.li {
+  min-width: 500px;
+  display: inline-block;
+}
+ul.demo {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.b {
+  list-style-type: square;
+}
+ol li:nth-child(1) {
+  background-color:green;
+}
+ol li:nth-child(2) {
+  background-color: orange;
+}
+ol li:nth-child(3) {
+  background-color: purple;
+}
+ol li:nth-child(4) {
+  background-color:yellowgreen;
+}ol li:nth-child(5) {
+  background-color:olive;
+}
+ol li:nth-child(6) {
+  background-color: peru;
+}
+ol li:nth-child(7) {
+  background-color: sienna;
+}
+ol li:nth-child(8) {
+  background-color:gold;
+
+}
+ul
+{
+   display: inline-block;
+}
+
+   
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  background-color: yellow;
+  padding: 10px;
+  font-size: 20px;
+}
+div.fixed {
+  position: fixed;
+  width: 50%;
+  bottom: 10px;
+  
+  border: 3px solid #8AC007;
+} 
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+a:visited .parent_container { background: pink; }
+
+
+
+
+      </style>
+      </head>
+      <body>
+          <div contenteditable="parent_container"><a href="https://www.w3schools.com/"></a></div>
+        <p><b><a href="https://www.w3schools.com/"  go to target="_blank">This is a link</a></b></p>
+        
+
+            
+        <ul class="demo">
+            <li>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+            <li>Item Four</li>
+            <li>Item Five</li>
+            <li>Item Six</li>
+            <li>Item Seven</li>
+            <div class="myDIV">Item Eight
+            </div>
+            <div class="hide">
+                <li>Item one</li>
+                <li>Item two</li>
+                <li>item three</li>
+            </div>
+            </ul>
+        </ul>
+            
+            
+                    
+        
+        <ul class="demo">  <div class="sticky">
+            <li>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+            <li>Item Four</li>
+            <li>Item Five</li>
+            <li>Item Six</li>
+            <li>Item Seven</li>
+            <li>Item Eight</li>
+</div>
+        </ul>
+            
+        
+        <ul class="demo">
+            <li>Item One</li> 
+            <li>Item Tow</li>
+            <li>Item Three</li>
+            <li>Item Four</li>
+            <li>Item Five</li>
+            <li>Item Six</li>
+            <li>Item Seven</li>
+            <li>Item Eight</li>
+        </ul>
+        
+        <ol><div class="fixed">
+            <li>Item One</li>
+    
+            <li>Item Two </li>
+            <li>Item Three</li>
+            <li>Item Four</li>
+            <li>Item Five</li>
+            <li>Item Six</li>
+            <li>Item Seven</li>
+            <li>Item Eight</li>
+            </div>
+        </div>
+        </ol>
+
+    
+        
+        <ol>
+            <li>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+            <li>Item Four</li>
+            <li>Item Five</li>
+            <li>Item Six</li>
+            <li>Item Seven</li>
+            <li>Item Eight</li>
+        </ol>
+      </body>
+  </html>
